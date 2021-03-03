@@ -103,5 +103,5 @@ def create_article():
         return render_template('create-article.html')
 
 
-if __name__ == "__main__":
+if __name__ == "__index__":
     app.run(debug=True)
